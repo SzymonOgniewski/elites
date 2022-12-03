@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.map-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+.channel {
+  width: 175px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+.channel:hover {
+  transform: scale(1.2);
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: rgb(32, 32, 32);
+}
+.map-name {
+  color: #ffdf6c;
+}
